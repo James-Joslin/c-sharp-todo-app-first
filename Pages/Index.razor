@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using ToDoApp.Models
 
 <div class = "todo-container">
     <h1>To-Do App!</h1>
@@ -9,20 +10,24 @@
         @* Remeber on click *@
     </div>
 
-    @* To output the to do list to screen we need a for each loop that outputs each to do *@
-    @* For each loop contained in curly brackets... just for the html sections? *@
-    @foreach (var todo in todos)
+    @* To output the to do list to screen we need a for loop that outputs each ELEMENT of todos by index *@
+    <!-- How does is this called each time the add button is pressed though? -->
+    
+    @for (int i = 0; i < todos.Count; i++)
     {
+        int index = i;
+        Console.WriteLine("Running");
         @* div foreach item within todos list *@
         <div class = "todo-item">
             <div class = "todo-item__text">
                 @* Double underscore = BEM naming convention *@
-                @todo
+                @todos[i].Title
             </div>
-            <div class = "todo-item__close">
+            <button class = "todo-item__close" @onclick = "@(() => removeTodo(index))">
+            <!-- Standard brackets for methods! Not squared brackets -->
                 &times;
                 @* Creates an X symbol *@
-            </div>
+            </button>
         </div>
     }
 </div>
@@ -33,20 +38,27 @@
     @* Why does todoInput not need standard brackets like other functions? *@
     @* todoInput is not a function it is a variable... muppet *@
     
-    public List<string> todos = new List<string>();
+    public List<Todo> todos = new List<Todo>();
     @* Lists declared with rounded brackets *@
 
     public void addTodo() 
     {
         if (todoInput != null)
         {
-            Console.WriteLine(todoInput);
-            todos.Add(todoInput);
+            var todo = new Todo();
+            todo.Title = todoInput;
+            <!-- Console.WriteLine(todoInput); -->
+            todos.Add(todo);
             todoInput = null;
         }
         else
         {
             Console.WriteLine("Nothing to enter!");
         }
+    }
+
+    public void removeTodo(int index)
+    {
+        todos.RemoveAt(index);
     }
 }
