@@ -16,14 +16,17 @@
     @for (int i = 0; i < todos.Count; i++)
     {
         int index = i;
+        var todo = todos[i];
         Console.WriteLine("Running");
         @* div foreach item within todos list *@
         <div class = "todo-item">
-            <div class = "todo-item__text">
+            <div class = "@(todo.IsComplete ? "todo-item__text complete" : "todo-item__text")"
+            @onclick = "@(() => markAsComplete(todo))" >
                 @* Double underscore = BEM naming convention *@
-                @todos[i].Title
+                @todo.Title;
             </div>
             <button class = "todo-item__close" @onclick = "@(() => removeTodo(index))">
+            <!-- Inline function () calls next function with "=>" -->
             <!-- Standard brackets for methods! Not squared brackets -->
                 &times;
                 @* Creates an X symbol *@
@@ -60,5 +63,10 @@
     public void removeTodo(int index)
     {
         todos.RemoveAt(index);
+    }
+
+    public void markAsComplete(Todo todo)
+    {
+        todo.IsComplete = !todo.IsComplete;
     }
 }
