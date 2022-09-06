@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<div class = "todo-container">
+    <h1>To-Do App!</h1>
+    <div class = "todo-input">
+        <input type = "text" @bind = "todoInput" /> 
+        @* Binds code below to the html element making it functional *@
+        <button>Add</button> 
+    </div>
+</div>
+
+@code
+{
+    public string todoInput { get; set; }
+}
