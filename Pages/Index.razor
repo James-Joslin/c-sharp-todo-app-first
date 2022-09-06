@@ -5,11 +5,48 @@
     <div class = "todo-input">
         <input type = "text" @bind = "todoInput" /> 
         @* Binds code below to the html element making it functional *@
-        <button>Add</button> 
+        <button @onclick = "addTodo">Add</button> 
+        @* Remeber on click *@
     </div>
+
+    @* To output the to do list to screen we need a for each loop that outputs each to do *@
+    @* For each loop contained in curly brackets... just for the html sections? *@
+    @foreach (var todo in todos)
+    {
+        @* div foreach item within todos list *@
+        <div class = "todo-item">
+            <div class = "todo-item__text">
+                @* Double underscore = BEM naming convention *@
+                @todo
+            </div>
+            <div class = "todo-item__close">
+                &times;
+                @* Creates an X symbol *@
+            </div>
+        </div>
+    }
 </div>
 
 @code
 {
     public string todoInput { get; set; }
+    @* Why does todoInput not need standard brackets like other functions? *@
+    @* todoInput is not a function it is a variable... muppet *@
+    
+    public List<string> todos = new List<string>();
+    @* Lists declared with rounded brackets *@
+
+    public void addTodo() 
+    {
+        if (todoInput != null)
+        {
+            Console.WriteLine(todoInput);
+            todos.Add(todoInput);
+            todoInput = null;
+        }
+        else
+        {
+            Console.WriteLine("Nothing to enter!");
+        }
+    }
 }

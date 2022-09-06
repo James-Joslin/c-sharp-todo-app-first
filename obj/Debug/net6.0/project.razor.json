@@ -8,154 +8,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1714113666,
+        "HashCode": 1412519135,
         "Kind": "Components.Component",
-        "Name": "ToDoApp.App",
+        "Name": "ToDoApp.Shared.NavMenu",
         "AssemblyName": "ToDoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.App"
+          "Common.TypeName": "ToDoApp.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -1924316195,
+        "HashCode": 1262908598,
         "Kind": "Components.Component",
-        "Name": "ToDoApp.App",
+        "Name": "ToDoApp.Shared.NavMenu",
         "AssemblyName": "ToDoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ToDoApp.App"
+            "TagName": "ToDoApp.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -734515267,
-        "Kind": "Components.Component",
-        "Name": "ToDoApp.Pages.Counter",
-        "AssemblyName": "ToDoApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 1459638245,
-        "Kind": "Components.Component",
-        "Name": "ToDoApp.Pages.Counter",
-        "AssemblyName": "ToDoApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDoApp.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -787425414,
-        "Kind": "Components.Component",
-        "Name": "ToDoApp.Pages.FetchData",
-        "AssemblyName": "ToDoApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1794574382,
-        "Kind": "Components.Component",
-        "Name": "ToDoApp.Pages.FetchData",
-        "AssemblyName": "ToDoApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDoApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1231608921,
-        "Kind": "Components.Component",
-        "Name": "ToDoApp.Shared.SurveyPrompt",
-        "AssemblyName": "ToDoApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 126099289,
-        "Kind": "Components.Component",
-        "Name": "ToDoApp.Shared.SurveyPrompt",
-        "AssemblyName": "ToDoApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDoApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Shared.SurveyPrompt",
+          "Common.TypeName": "ToDoApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -256,35 +137,134 @@
         }
       },
       {
-        "HashCode": 1412519135,
+        "HashCode": -734515267,
         "Kind": "Components.Component",
-        "Name": "ToDoApp.Shared.NavMenu",
+        "Name": "ToDoApp.Pages.Counter",
         "AssemblyName": "ToDoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Shared.NavMenu"
+          "Common.TypeName": "ToDoApp.Pages.Counter"
         }
       },
       {
-        "HashCode": 1262908598,
+        "HashCode": 1459638245,
         "Kind": "Components.Component",
-        "Name": "ToDoApp.Shared.NavMenu",
+        "Name": "ToDoApp.Pages.Counter",
         "AssemblyName": "ToDoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ToDoApp.Shared.NavMenu"
+            "TagName": "ToDoApp.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDoApp.Shared.NavMenu",
+          "Common.TypeName": "ToDoApp.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -787425414,
+        "Kind": "Components.Component",
+        "Name": "ToDoApp.Pages.FetchData",
+        "AssemblyName": "ToDoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDoApp.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1794574382,
+        "Kind": "Components.Component",
+        "Name": "ToDoApp.Pages.FetchData",
+        "AssemblyName": "ToDoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDoApp.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDoApp.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 394119304,
+        "Kind": "Components.Component",
+        "Name": "ToDoApp.Pages.Index",
+        "AssemblyName": "ToDoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDoApp.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -381420575,
+        "Kind": "Components.Component",
+        "Name": "ToDoApp.Pages.Index",
+        "AssemblyName": "ToDoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDoApp.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDoApp.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1714113666,
+        "Kind": "Components.Component",
+        "Name": "ToDoApp.App",
+        "AssemblyName": "ToDoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDoApp.App"
+        }
+      },
+      {
+        "HashCode": -1924316195,
+        "Kind": "Components.Component",
+        "Name": "ToDoApp.App",
+        "AssemblyName": "ToDoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDoApp.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDoApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13638,11 +13618,6 @@
     {
       "FilePath": "/home/james/dev-work/c-sharp/ToDoApp/Pages/FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/james/dev-work/c-sharp/ToDoApp/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     }
   ],
